@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZeroPlus Cafe Site</title>
+    <meta name="description" content="zeroplus cafeについて紹介します" />
+
+    <link rel="icon" href="/favicon.ico" type="image/ico" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/webclip.png" />
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="zeroplus cafe" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="zeroplus cafe" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google fonts本文用 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- english -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollTrigger.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body class="js_body">
+    <header class="header">
+      <h1 class="header-logo">
+        <a href="index.html" class="header-logo_link">ZeroPlus Cafe</a>
+      </h1>
+      <nav class="header-nav js_navigation">
+        <ul class="header-nav_list">
+          <li class="header-nav_item">
+            <a href="index.html" class="header-nav_link">TOP</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="about.html" class="header-nav_link">ABOUT</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="menu.html" class="header-nav_link">MENU</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="index.html#access" class="header-nav_link">ACCESS</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="news.html" class="header-nav_link">NEWS</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="m_hamburger js_hamburger">
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+      </button>
+    </header>
+
+    <main class="main">
+      <div class="top_kv_menu">
+        <div class="kv_box kv_menu-wrapper">
+          <h1 class="kv_ttl kv_ttl__menu">Menu</h1>
+        </div>
+      </div>
+
+      <section class="menu">
+        <div class="l_contents">
+          <div class="menu_contents">
+            <p class="menu_copy">
+              高品質なコーヒーと<br />
+              厳選した食材を使ったこだわりメニュー
+            </p>
+            <div class="menu_list-wrapper">
+              <ul class="menu_list">
+                <li class="menu_item">
+                  <div class="menu_item_box">
+                    <h2 class="menu_item_ttl">Coffee</h2>
+                    <div class="menu_item_img-wrapper">
+                      <img
+                        src="img/menu_item.jpg"
+                        alt="黄金比のネルドリップ"
+                        width="800"
+                        height="600"
+                        class="menu_item_img"
+                        loading="lazy"
+                      />
+                    </div>
+
+                    <div class="menu_item_body">
+                      <h3 class="menu_item_subttl">黄金のネルドリップ</h3>
+                      <p class="menu_item_text">
+                        甘味と酸味が絶妙にマッチした一杯です。
+                      </p>
+                      <p class="menu_item_price">500yen</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="menu_item __sweets">
+                  <div class="menu_item_box __sweets">
+                    <h2 class="menu_item_ttl">Sweets</h2>
+                    <div class="menu_item_img-wrapper">
+                      <img
+                        src="img/menu_item02.jpg"
+                        alt="フルーツパンケーキ"
+                        width="800"
+                        height="600"
+                        class="menu_item_img"
+                        loading="lazy"
+                      />
+                    </div>
+
+                    <div class="menu_item_body">
+                      <h3 class="menu_item_subttl">フルーツパンケーキ</h3>
+                      <p class="menu_item_text">
+                        季節のフルーツをふんだんに使用した一品です。
+                      </p>
+                      <p class="menu_item_price">700yen</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="menu_item">
+                  <div class="menu_item_box">
+                    <h2 class="menu_item_ttl">Food</h2>
+                    <div class="menu_item_img-wrapper">
+                      <img
+                        src="img/menu_item03.jpg"
+                        alt="エッグベネディクト"
+                        width="800"
+                        height="600"
+                        class="menu_item_img"
+                        loading="lazy"
+                      />
+                    </div>
+
+                    <div class="menu_item_body">
+                      <h3 class="menu_item_subttl">エッグベネディクト</h3>
+                      <p class="menu_item_text">
+                        朝採れ卵を使ったオススメの一品です。
+                      </p>
+                      <p class="menu_item_price">800yen</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer-logo">ZeroPlus Cafe</h2>
+      <div class="footer_text_box">
+        <p class="footer_text">東京都渋谷区〇〇〇<br />TEL：00-0000-0000</p>
+        <p class="footer_text">【営業時間】</p>
+        <p class="footer_text">11：00～22：00<br />定休日：月曜日</p>
+      </div>
+      <!-- footer_text_box -->
+      <nav class="footer-nav">
+        <ul class="footer-nav_list">
+          <li class="footer-nav_item">
+            <a href="index.html" class="footer-nav_link">TOP</a>
+          </li>
+          <li class="footer-nav_item">
+            <a href="about.html" class="footer-nav_link">ABOUT</a>
+          </li>
+          <li class="footer-nav_item">
+            <a href="menu.html" class="footer-nav_link">MENU</a>
+          </li>
+          <li class="footer-nav_item">
+            <a href="index.html#access" class="footer-nav_link">ACCESS</a>
+          </li>
+          <li class="footer-nav_item">
+            <a href="news.html" class="footer-nav_link">NEWS</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="insta-wrapper_footer">
+        <a href="" class="insta_link">
+          <img
+            src="/img/insta_icon.png"
+            alt="インスタグラム"
+            class="insta_icon_img_footer"
+          />
+        </a>
+      </div>
+      <div class="l_footer-copyright">
+        <small class="l_footer-copyright_text">&copy;2026 ZeroPlus Cafe</small>
+      </div>
+    </footer>
+  </body>
+</html>
